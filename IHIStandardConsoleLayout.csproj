@@ -51,6 +51,7 @@
     <ProjectReference Include="..\IHI\IHI.csproj">
       <Project>{c4a7184f-5843-4d97-889f-fbc8153007f1}</Project>
       <Name>IHI</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
