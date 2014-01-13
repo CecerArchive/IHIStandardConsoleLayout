@@ -4,6 +4,11 @@ namespace IHI.Server.Plugins.IHIStandardConsoleLayout
 {
     public class IHIStandardConsoleLayout : Plugin
     {
+        public override string Id
+        {
+            get { return "cecer:ihistandardconsolelayout"; }
+        }
+
         public override string Name
         {
             get
